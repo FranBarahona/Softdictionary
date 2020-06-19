@@ -1,0 +1,215 @@
+*{margin:0; padding:0;}
+
+
+body{
+	background:url(../imagenes/font.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	
+
+}
+@font-face {
+	font-family:CaviarDreams_Italic;
+	src: url(../fuentes/CaviarDreams_Italic.ttf);
+}
+
+header{
+	width:100%;
+	overflow:hidden; 
+background: #24282b;
+	margin-bottom:20px;
+	position: fixed;
+	border-bottom: 5px solid #1293dd;
+	z-index: 5;
+
+}
+.wrapper{
+	width:90%;
+	max-width:1000px;
+	margin:auto; 
+    overflow:hidden;
+
+}
+
+div.logo{
+	color:#f2f2f2;
+	font-size:50px;
+    line-height:200px;
+    float:left;
+
+}
+div.logo img {
+	width:75%;
+	height:100px;
+
+
+}
+header nav {
+	float:right;
+	line-height:200px;
+
+}
+header nav a {
+	display:inline-block;
+	color:white;
+	text-decoration:none;
+	padding: 10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+		font-family:CaviarDreams_Italic;
+
+}
+header nav a img{
+	float:left;
+	margin-right: 0.5em;
+	height: 37px;
+	widows: 30px;
+
+}
+ header nav a:hover {
+ 	background:#000000 ;
+ 	border-radius:50px;
+
+ }
+
+ .header2 {
+ 	position:fixed;
+ 	height:100px; 
+ }
+ .header2 .logo{
+ 	line-height:100px;
+ 	font-size:30px;
+
+ }
+ .header2 nav {
+ 	line-height:100px;
+ }
+
+.contenido  p{
+
+	position:relative;
+	background:#d8d8d8;
+	padding: 0.5em;
+	margin-bottom:50px;
+	text-align:left;
+	border-radius:5px;
+	margin: 20px; 
+	bottom: -20px;
+
+}
+
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background-color: #1293d4;
+	text-align: center;
+		font-family:CaviarDreams_Italic;
+}
+
+
+
+	.header2{
+		height:auto;
+	}
+
+	.header2 .logo 
+	.header2 nav {
+		line-height:50px; 
+
+	}
+
+
+}
+  p {
+	font-family:CaviarDreams_Italic;
+	  font-size:20px;
+	  font-weight: normal;
+	  z-index: 5;
+	  
+  }
+	  
+ div#contenedor{
+    margin:150px auto;
+    background: #24282b;
+    max-width: 1400px;
+    min-width: 900px;
+    width: 100%;
+   overflow: hidden;
+   opacity: 0.9;
+   border-radius: 0.5em;
+
+   }
+    
+
+
+
+  div#contenedor #clases {
+      width: 80%;
+  padding: 2em; 
+
+   }
+   #claseA{
+	   	text-align: center;
+       border:dashed 1px;
+       width:100%;
+       float:left;
+	padding: 1em;
+	
+	
+    
+
+   }
+
+   .claseB{
+	   	text-align: center;
+    border:dashed 1px;
+    width:40%;
+	padding: 1em;
+	background:#d8d8d8;
+	display: inline-block;
+	
+
+}
+
+.clasecontenidoA{
+	text-align: center;
+	margin:auto 5%;
+    border:dashed 1px;
+       width:80%;
+       float:left;
+	padding: 1em;
+	background:#d8d8d8;
+	border: 4px solid #1293dd;
+	border-radius:0.5em;
+}
+
+.clasecontenidoA p{
+	font-weight: bold;
+	padding: 0.5em;
+
+}
+.tabla{
+
+	background:#d8d8d8;
+	width:80%;
+	border: 4px solid #1293dd;
+	border-radius:0.5em;
+margin:auto 10%;
+	font-family:CaviarDreams_Italic;
+	font-weight: bold;
+  padding: 10px;
+}
+h2{
+		font-family:CaviarDreams_Italic;
+		color:#d8d8d8;
+  }
+
+	

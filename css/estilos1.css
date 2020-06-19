@@ -1,0 +1,97 @@
+*{margin:0; padding:0;}
+
+
+body{
+	background:#f2f2f2;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    opacity: 0.5em;
+	
+
+}
+@font-face {
+	font-family:CaviarDreams_Italic;
+	src: url(../fuentes/CaviarDreams_Italic.ttf);
+}
+
+
+#contenido{
+	position: absolute;
+	top:400px;
+	background-color: #000000;
+	overflow: hidden;
+	margin:0px 10%;
+
+
+
+}
+ #contenido-inicio {
+	 position: relative;
+	 background-color:#f2f2f2;
+	 padding: 0.5em;
+	 width: 400px;
+	 border-style:dotted;
+	 border-color:#8258FA;
+	 color: #000000;
+	 display: inline-block;
+	 font-family:CaviarDreams_Italic;
+	 font-size: 23px;
+	 font-weight: bold;
+	 opacity: 0.5;
+	 text-align: justify;
+     
+ }
+
+ #contenido-inicio2 {
+	 position: relative;
+	 background-color: #f2f2f2;
+	 padding: 0.5em;
+	float: right;
+	width: 600px;
+	color: #000000;
+	border-style:dotted;
+	border-color:#8258FA;
+	border-radius: 0.5em;
+	font-family:CaviarDreams_Italic;
+	font-size: 23px;
+	font-weight: bold;
+	opacity: 0.5;
+	text-align: justify;
+       
+
+	
+}
+
+#botton{
+	
+	background-color: #0cdd52;
+	width: 25%;
+	height: 15px;
+
+}
+
+div#logo img{
+	display: inline-block;
+	margin:10px 20%;
+	border-radius: 0.5em;
+}
+div#logo {
+background-color: #000000;
+height: 310px;
+
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background-color: #1293d4;
+	text-align: center;
+		font-family:CaviarDreams_Italic;
+}
+
+
+
+
+
